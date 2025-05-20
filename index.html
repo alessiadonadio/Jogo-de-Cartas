@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poker Texas Hold'em</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>♠ Poker Texas Hold'em</h1>
+
+  <div class="table">
+    <div>
+      <h2>Sua Mão</h2>
+      <div id="player-hand" class="hand"></div>
+    </div>
+
+    <div>
+      <h2>Cartas Comunitárias</h2>
+      <div id="community-cards" class="hand"></div>
+    </div>
+
+    <div>
+      <h2>Mão do Computador</h2>
+      <div id="computer-hand" class="hand hidden"></div>
+    </div>
+
+    <button onclick="startGame()">Nova Rodada</button>
+    <p id="result"></p>
+  </div>
+
+  <footer>Desenvolvido por Alessia Donadio
+    <p>Curso Técnico Em Informática</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
